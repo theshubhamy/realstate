@@ -3,9 +3,11 @@ import { baseUrl, fetchApi } from "../utils/fetchApi";
 import Property from "../components/Property";
 //ui-component
 import Banner from "../components/Banner";
+import Hero from "../components/Hero";
 const Home = ({ propertyForSale, propertyForRent }) => {
   return (
     <Box>
+      <Hero />
       <Banner
         purpose="RENT A HOME"
         title1="Rental Homes for"

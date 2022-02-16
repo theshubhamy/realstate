@@ -34,7 +34,7 @@ const PropertyDetails = ({
           {isVerified && <GoVerified />}
         </Box>
         <Text fontWeight="bold" fontSize="lg">
-          AED {price} {rentFrequency && `/${rentFrequency}`}
+          INR {price} {rentFrequency && `/${rentFrequency}`}
         </Text>
         <Spacer />
         <Avatar size="sm" src={agency?.logo?.url}></Avatar>
