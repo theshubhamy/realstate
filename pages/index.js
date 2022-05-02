@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Button } from "@chakra-ui/react";
+import { Flex, Box } from "@chakra-ui/react";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
 import Property from "../components/Property";
 //ui-component

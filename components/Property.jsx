@@ -29,8 +29,10 @@ const Property = ({
       w="420px"
       p="5"
       paddingTop="0px"
-      justifyContent="flex-start"
-      cursor="pointer">
+      mx="auto"
+      justifyContent="center"
+      cursor="pointer"
+    >
       <Box>
         <Image
           src={coverPhoto ? coverPhoto.url : DefaultImage}
@@ -50,16 +52,14 @@ const Property = ({
               {rentFrequency && `/${rentFrequency}`}
             </Text>
           </Flex>
-          <Box>
-            <Avatar size="sm" src={agency?.logo?.url}></Avatar>
-          </Box>
         </Flex>
         <Flex
           alignItems="center"
           p="1"
           justifyContent="space-between"
           w="250px"
-          color="blue.400">
+          color="blue.400"
+        >
           {rooms}
           <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
         </Flex>
