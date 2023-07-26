@@ -17,7 +17,7 @@ const Navbar = () => (
   <Flex p="2" borderBottom="1px" borderColor="gray.100">
     <Box fontSize="3xl" color="gray.900" fontWeight="bold">
       <Link href="/" paddingLeft="2">
-        Real Estate
+        Paddy Construction
       </Link>
     </Box>
     <Spacer />
