@@ -47,10 +47,7 @@ const Property = ({
             <Box paddingRight="3" color="green.400">
               {isVerified && <GoVerified />}
             </Box>
-            <Text fontWeight="bold" fontSize="lg">
-              INR {price}
-              {rentFrequency && `/${rentFrequency}`}
-            </Text>
+
           </Flex>
         </Flex>
         <Flex
