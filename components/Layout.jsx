@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Real Estate</title>
+        <title>Paddy Construction</title>
       </Head>
       <Box w="100%" px={4}>
         <Navbar />
