@@ -35,7 +35,7 @@ const Footer = () => (
           fontSize="2xl"
           color="purple.400"
           textTransform="uppercase">
-          Real Estate
+          Paddy Construction
         </Text>
         <Text color="gray.500">Create beautiful websites remarkably fast.</Text>
       </Stack>
@@ -105,7 +105,7 @@ const Footer = () => (
       align="center"
       color="purple.500">
       <Text fontSize="lg" fontWeight="bold">
-        &copy; {new Date().getFullYear()} Real Estate, Inc. All rights reserved.
+        &copy; {new Date().getFullYear()} Paddy Construction, Inc. All rights reserved.
       </Text>
       <ButtonGroup variant="ghost">
         <IconButton
